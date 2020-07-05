@@ -86,6 +86,7 @@ const App = () => {
             createTask={createTask}
             toggleTask={toggleTask}
             Deletetask={Deletetask}
+            setDays={setDays}
           />
         </React.Fragment>
       ) : (
