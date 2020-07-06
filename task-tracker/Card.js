@@ -5,7 +5,7 @@ const Card = ({ day, createTask, toggleTask,Deletetask,deleteday }) => {
 
   return (
     <div className="each-day">
-      <h2>{day.title}<a  onClick={deleteday}><button>x</button></a></h2>
+      <h2>{day.title}<a  onClick={deleteday}><button> x </button></a></h2>
 
       <input
         type="text"
