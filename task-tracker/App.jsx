@@ -28,6 +28,7 @@ const App = () => {
       completed: false,
     };
 
+    
     const newDays = days.map((day, index) => {
       if (index === dayIndex) {
         let newObj = JSON.parse(JSON.stringify(day));
